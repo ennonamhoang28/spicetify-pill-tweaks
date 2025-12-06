@@ -1,8 +1,10 @@
-Enno's Personal Tweaks for Hazy Theme
-A collection of personal CSS adjustments I made to tidy up the Spotify interface when using the Hazy theme. It mainly focuses on aesthetics and fixing some visual compatibility issues with other popular snippets.
+Enno's Pill-Shaped Player & Visual Fixes
+A collection of personal CSS tweaks to enhance the Spotify interface. The main feature is transforming the bottom player bar into a sleek, floating "pill" shape. It also includes several fixes to improve visual compatibility when using other popular snippets.
+
+Works well with the base Spotify client and most themes (including Hazy).
 
 Designed to work alongside:
-I created this CSS specifically to handle visual glitches and enhance the look when using these 3 popular snippets together (you should install them first from the Marketplace for the full effect):
+This CSS is primarily created to handle visual glitches and create a cohesive look when using these 3 popular snippets together (install them first from the Marketplace):
 
 Spinning CD Cover Art (for the small Now Playing bar animation).
 
@@ -11,19 +13,17 @@ Circular Album Art (for the large sidebar cover).
 Rounded Images (for general UI consistency).
 
 What does this CSS do?
-This snippet applies the following changes on top of those:
+💊 Pill-Shaped Player Bar: Transforms the bottom player control bar into a floating, fully rounded "pill" shape with a modern glass effect.
 
-Pill-Shaped Player Bar: Transforms the bottom player control bar into a floating, fully rounded "pill" shape with an ultra-clear glass effect.
+🔲 Rounded Square Library Icons: Forces the default circular artist and album icons in the left sidebar (Your Library) into uniform rounded squares.
 
-Squared Library Icons: Forces the default circular artist and album icons in the left sidebar (Your Library) into rounded squares for a more consistent look.
+💿 Vinyl & CD Fixes:
 
-Vinyl & CD Fixes:
+"Ghostbuster" Fix: Removes the ugly square shadow artifact that can appear behind spinning CD snippets in the small player bar.
 
-Ghostbuster Fix: Removes the square shadow artifact that often appears behind spinning CD snippets in the small player bar.
-
-Solid Vinyl Mode: Forces the large cover art in the right sidebar to be a "solid vinyl" record (filling the center hole), while keeping the spinning CD effect in the small player bar below.
+Solid Vinyl Mode: Ensures the large cover art in the right sidebar is a solid vinyl record (filling the center hole), while keeping the spinning CD effect in the small player bar below.
 
 How to use
-Just copy the content of user.css and paste it into your Spicetify user.css file.
+Just copy the content of the user.css file from this repository and paste it into your Spicetify user.css config file.
 
 Enjoy!
